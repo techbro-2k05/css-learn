@@ -1,0 +1,46 @@
+
+p{
+    color:beige;
+}
+button{
+    color: black;
+    background-color: grey;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+body{
+    background-color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hello{
+    color: blueviolet;
+}
+h1{
+    color: red;
+}
+#hell{
+    color: blanchedalmond;
+    background-color: chocolate;
+    text-align: right;
+    font-family: cursive;
+}
+.myclass{
+    color: blanchedalmond;
+    background-color: chocolate;
+}
+
+a{
+    text-decoration: none;
+}
+/* this is comment */
+#killer{
+    text-align: center;
+    text-transform:capitalize ;
+}
+#inner{
+    font-size: 25px;
+}
+#outer{
+    font-size: 50px;
+}

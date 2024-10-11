@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+    <style>
+      html {
+        font-size: 1em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(38, 88, 141);
+      }
+
+      @media screen and (max-width: 600px),screen and (max-width: 800px) and (orientation: landscape),not all and (max-height=300px){
+        body {
+          color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      this is a paragraph. Lorem ipsum dolor sit amet consectetur, adipisicing
+      elit. Id aut alias tenetur repellendus amet exercitationem cupiditate nam
+      facere adipisci, eaque corporis odit similique iure obcaecati quisquam,
+      magnam, rem provident laborum!
+    </p>
+  </body>
+</html>

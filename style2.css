@@ -1,0 +1,23 @@
+div{
+    height:100px;
+    background-color: pink;
+    display: inline;
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+
+}
+
+h1{
+    border: 8px dashed red;
+}
+
+p{
+    margin: 50px;
+}
+button{
+    display: block;
+background-color: aqua;
+}
+/*circle- square with radius 50 %*/

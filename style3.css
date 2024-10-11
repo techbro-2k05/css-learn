@@ -1,0 +1,29 @@
+h1{
+    background-color:#53c5bd;
+    color:white;
+    text-align: center;
+    font-size :30px;
+    font-family: "Briem Hand";
+    font-style: normal;
+    text-decoration:underline overline dashed ;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 2px gray;
+}
+p{
+    color:rgba(33, 54, 150, 0.952);
+    font-weight: 300;
+    font-size: large;
+    letter-spacing: -0.5px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+    text-indent: 20em;
+}
+#firsth1{
+    background-image: url(ashtang.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-attachment: scroll;
+    background-position: center left;
+
+}

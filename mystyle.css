@@ -1,0 +1,45 @@
+*{
+    list-style-type: square;
+}
+h3{
+    color:blue
+}
+p,a{
+    color:blueviolet
+}
+li{
+    list-style-type: none;
+}
+
+a.special{
+    color:red;
+    font-weight: bolder;
+}
+small strong{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2+h3{
+    color:brown;
+}
+a:hover{
+    text-decoration: none;
+}
+h1+h3.special{
+    color: teal;
+}
+
+a#one{
+    color:darkcyan;
+}
+
+li[class]{
+color: blueviolet;
+}
+
+li[class="special"]{
+    color: greenyellow;
+    }
+
+li[class~="special"]{
+    color: green;
+}
